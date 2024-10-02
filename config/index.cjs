@@ -6,12 +6,13 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  USE_PASSAGE: 'server-chan',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx484d525dda9dddc0',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '5a28116fae5c3c2681e2522725920540',
+  APP_SECRET: '',
 
   PROVINCE: '吉林',
   CITY: '长春',
@@ -21,9 +22,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oQkfs6GvT61j7dnCY9GibYWO71M8',
+      id: 'SCT259180T4iox2QcBbYdBi6Cxgkt4NRuO',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'EffiOuD1uxf0f8hT1W0jTX1e6GEjoAN-jnknUyLodAM',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-09',
       festivals: [
