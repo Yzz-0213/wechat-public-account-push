@@ -5,6 +5,13 @@ const TEMPLATE_CONFIG = [
     title: '老婆早',
     desc: `
       **{{date.DATA}}**
+        ---
+      
+      今天是我们相识的第{{love_day.DATA}}天
+      
+      
+      
+      ---
       
       下个休息日：{{holidaytts.DATA}}
       
@@ -22,7 +29,7 @@ const TEMPLATE_CONFIG = [
       
       {{comprehensive_horoscope.DATA}}
       ---
-      {{love_horoscope.DATA}}
+    
       ---
       {{career_horoscope.DATA}}
       ---
@@ -31,13 +38,7 @@ const TEMPLATE_CONFIG = [
       {{healthy_horoscope.DATA}}
       
       
-      ---
-      
-      今天是我们相识的第{{love_day.DATA}}天
-      
-      
-      
-      ---
+    
       
       
       
