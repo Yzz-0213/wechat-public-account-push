@@ -21,6 +21,15 @@ const TEMPLATE_CONFIG = [
       风级: {{wind_scale.DATA}}
       
       {{comprehensive_horoscope.DATA}}
+      ---
+      {{love_horoscope.DATA}}
+      ---
+      {{career_horoscope.DATA}}
+      ---
+      {{wealth_horoscope.DATA}}
+      ---
+      {{healthy_horoscope.DATA}}
+      
       
       ---
       
